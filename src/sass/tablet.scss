@@ -1,0 +1,26 @@
+@media screen and (min-width: 768px) {
+  .team {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .about {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 30px;
+  }
+  .text-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .cards {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .services-points {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
